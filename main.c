@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
 	printf("************************************\n");
 	
 //step1. initiallization(player name setting, variables)
-board_initboard();
+board_initBoard();
 //step2. turn play (do-while)
 int cnt = 0;
 int pos;
@@ -42,7 +42,7 @@ do{
 //2-4. change turn, shark move 
 	cnt++;
 }while(cnt<5);
-//step3. game end(winner printing)
+//step3. game end(winner printing)	
 	
 	
 	
